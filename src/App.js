@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
-
-import logo from './Logo.svg';
-
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
+import Nav from './components/Nav';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <img src={logo}/>
       <Nav/>
+      <Header/>
     </>
   );
 }
