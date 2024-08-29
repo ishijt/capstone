@@ -9,7 +9,7 @@ const recipes = [
     },
     {
       id: 2,
-      title: "Bruchetta",
+      title: "Bruschetta",
       price: 5.99,
       image: "https://i.ibb.co/317GqZv/Bruchetta.png",
       description:
