@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 
-/* header */
+/* Header */
 
 .header {
   background-color: #495e57;
@@ -158,11 +158,11 @@ input, label {
 }
 
 .confirm span {
-  color: blue;
+  color: rgb(0, 207, 17);
 }
 
 
-/* menu */
+/* Menu */
 
 .menu-container {
   margin: 110px auto;
