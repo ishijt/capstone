@@ -23,9 +23,9 @@ const Footer = () => {
                 <div>
                     <h3>Contact</h3>
                     <ul>
-                        <li><a href='/'>Address</a></li>
-                        <li><a href='/'>Phone Number</a></li>
-                        <li><a href='/'>E-mail</a></li>
+                        <li>Address: Towns Avenue 317, Chicago</li>
+                        <li>Phone: +1 312 1006 301</li>
+                        <li>E-mail: contact@littlelemon.org</li>
                     </ul>
                 </div>
 

@@ -167,7 +167,7 @@ h5 {
 }
 
 .heading p {
-  font-size: 17px;
+  font-size: 18px;
   color: #EE9972;
 }
 
@@ -205,7 +205,8 @@ h5 {
 .menu-container img {
   width: 100%;
   height: 240px;
-  border-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .menu-content {
@@ -240,7 +241,7 @@ footer section {
 .company-info img {
   margin-top: 12px;
   cursor: pointer;
-  width: 80px;
+  width: 100px;
 }
 
 .company-info p {
@@ -256,7 +257,7 @@ footer ul {
 }
 
 footer ul li {
-  padding: 8px 0;
+  padding: 5px 0;
 }
 
 @media screen and (max-width: 1156px) {
@@ -269,6 +270,7 @@ footer ul li {
   
   .banner-img img {
     width: 100%;
+    max-width: 250px;
     height: 300px;
     border-radius: 12px;
   }
@@ -323,21 +325,26 @@ footer ul li {
   .header section, .menu-container {
     padding: 10px 8%;
   }
+
   .menu-container {
     margin: 20px 0;
   }
-  .menu-header {
-    justify-content: flex-start;
+
+  .menu-container img {
+    width: 100%;
+    height: auto;
   }
 
   .menu-items {
-    width: 40vh;
+    width: 100%;
+    max-width: 100%;
   }
 
   footer section {
     padding: 10px 8%;
     flex-direction: column;
   }
+
   .company-info p {
     width: 100%;
   }
